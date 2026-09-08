@@ -49,3 +49,55 @@
     "EventName": "OfferGenerated"
   }
 ]
+=======
+[
+  {
+    "EnqueuedTimeUtc": "2024-01-15T14:32:10.123Z",
+    "EventName": "OfferGenerated",
+    "Payload": "{\"OfferId\": \"OFR-1001\", \"UserId\": \"USR-5501\", \"CuratedOfferOptions\": [{\"OptionId\": \"OPT-1\", \"ProductId\": \"PRD-100\", \"OfferType\": \"discount\", \"Rank\": 1}, {\"OptionId\": \"OPT-2\", \"ProductId\": \"PRD-101\", \"OfferType\": \"bundle\", \"Rank\": 2}], \"DynamicPricing\": {\"OptionId\": \"DPO-1\", \"BasePrice\": 12.99, \"FinalPrice\": 10.99, \"Currency\": \"USD\", \"PriceRanges\": [{\"MinQty\": 1, \"MaxQty\": 5, \"UnitPrice\": 10.99}, {\"MinQty\": 6, \"MaxQty\": 20, \"UnitPrice\": 9.49}]}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2024-01-15T15:05:44.900Z",
+    "EventName": "OfferGenerated",
+    "Payload": "{\"OfferId\": \"OFR-1002\", \"UserId\": \"USR-5502\", \"CuratedOfferOptions\": [{\"OptionId\": \"OPT-3\", \"ProductId\": \"PRD-102\", \"OfferType\": \"discount, seasonal\", \"Rank\": 1}], \"DynamicPricing\": {\"OptionId\": \"DPO-2\", \"BasePrice\": 8.5, \"FinalPrice\": 8.5, \"Currency\": \"USD\", \"PriceRanges\": [{\"MinQty\": 1, \"MaxQty\": null, \"UnitPrice\": 8.5}]}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2024-01-15T16:12:01.000Z",
+    "EventName": "OfferGenerated",
+    "Payload": "{\"OfferId\": \"OFR-1003\", \"UserId\": \"USR-5503\", \"CuratedOfferOptions\": [], \"DynamicPricing\": {\"OptionId\": \"DPO-3\", \"BasePrice\": 15.0, \"FinalPrice\": 12.75, \"Currency\": \"USD\", \"PriceRanges\": [{\"MinQty\": 1, \"MaxQty\": 10, \"UnitPrice\": 12.75}]}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2024-01-15T17:47:29.500Z",
+    "EventName": "OfferGenerated",
+    "Payload": "{\"OfferId\": \"OFR-1004\", \"UserId\": \"USR-5504\", \"CuratedOfferOptions\": [{\"OptionId\": \"OPT-4\", \"ProductId\": \"PRD-103\", \"OfferType\": \"bundle\", \"Rank\": 1}, {\"OptionId\": \"OPT-5\", \"ProductId\": \"PRD-104\", \"OfferType\": \"discount\", \"Rank\": 2}]}"
+  },
+  {
+    "EnqueuedTimeUtc": "2024-01-15T18:30:00.000Z",
+    "EventName": "OfferGenerated",
+    "Payload": "{\"OfferId\": \"OFR-1005\", \"UserId\": \"USR-5505\", \"CuratedOfferOptions\": [{\"OptionId\": \"OPT-6\", \"ProductId\": \"PRD-105\", \"OfferType\": \"discount\", \"Rank\": 1}], \"DynamicPricing\": {\"OptionId\": \"DPO-5\", \"BasePrice\": 20, \"FinalPrice\": 18, \"Currency\": \"USD\", \"PriceRanges\": [{\"MinQty\": 1, \"MaxQty\": 3, \"UnitPrice\": 18}, {\"MinQty\": 4, \"MaxQty\": 9, \"UnitPrice\": 16.5}, {\"MinQty\": 10, \"MaxQty\": 50, \"UnitPrice\": 15}]}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2024-01-15T19:00:15.250Z",
+    "EventName": "OfferGenerated",
+    "Payload": "{\"OfferId\": \"OFR-1006\", \"UserId\": \"USR-5506\", \"CuratedOfferOptions\": [{\"OptionId\": \"OPT-7\", \"ProductId\": \"PRD-106\", \"OfferType\": \"promo \\\"flash sale\\\"\", \"Rank\": 1}], \"DynamicPricing\": {\"OptionId\": \"DPO-6\", \"BasePrice\": 9.99, \"FinalPrice\": 7.99, \"Currency\": \"USD\", \"PriceRanges\": [{\"MinQty\": 1, \"MaxQty\": 5, \"UnitPrice\": 7.99}]}}"
+  },
+  {
+    "EnqueuedTimeUtc": null,
+    "EventName": "OfferGenerated",
+    "Payload": "{\"OfferId\": \"OFR-1007\", \"UserId\": \"USR-5507\", \"CuratedOfferOptions\": [{\"OptionId\": \"OPT-8\", \"ProductId\": \"PRD-107\", \"OfferType\": \"discount\", \"Rank\": 1}], \"DynamicPricing\": {\"OptionId\": \"DPO-7\", \"BasePrice\": 11.5, \"FinalPrice\": 11.5, \"Currency\": \"USD\", \"PriceRanges\": [{\"MinQty\": 1, \"MaxQty\": 100, \"UnitPrice\": 11.5}]}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2024-01-15T20:22:05.000Z",
+    "EventName": "OfferExpired",
+    "Payload": "{\"OfferId\": \"OFR-1008\", \"UserId\": \"USR-5508\", \"CuratedOfferOptions\": [{\"OptionId\": \"OPT-9\", \"ProductId\": \"PRD-108\", \"OfferType\": \"discount\", \"Rank\": 1}] \"DynamicPricing\": {\"OptionId\": \"DPO-8\", \"BasePrice\": 13.0}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2024-01-15T21:10:40.000Z",
+    "EventName": "OfferGenerated",
+    "Payload": "{\"OfferId\": \"OFR-1009\", \"UserId\": \"USR-5509\", \"CuratedOfferOptions\": [{\"OptionId\": \"OPT-10\", \"ProductId\": \"PRD-109\", \"OfferType\": \"discount\", \"Rank\": 1}], \"DynamicPricing\": {\"OptionId\": \"DPO-9\", \"BasePrice\": 25.0, \"FinalPrice\": 22.0, \"Currency\": \"USD\", \"PriceRanges\": [{\"MinQty\": 1, \"MaxQty\": 2, \"UnitPrice\": 22.0}]}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2024-01-16T02:59:59.999Z",
+    "EventName": "OfferGenerated"
+  }
+]
