@@ -7,8 +7,8 @@ with open("case.json", "r", encoding="utf-8") as f:
 parsed_records = []
 
 for record in raw_data:
-    payload_str = record["Payload"]
-    payload_dict = json.loads(payload_str)   # <-- unsealing the string into a real dict
+    payload_str = record['Payload']
+    payload_dict = json.loads(payload_str)
     parsed_records.append(payload_dict)
 
 # Sanity check: look at the first unpacked payload
