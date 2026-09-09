@@ -3,7 +3,6 @@ import json
 with open("case.json", "r", encoding="utf-8") as f:
     raw_data = json.load(f)
 
-# Unpack the Payload for every record
 parsed_records = []
 
 for record in raw_data:
